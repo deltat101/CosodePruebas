@@ -1,0 +1,44 @@
+/*Flecha para hacer la pagina hacia arriba*/
+.br50 {
+    font-size: 50px;
+}
+.desplegar-menu {
+    display: none;
+    position: fixed;
+    top: 3%;
+    left: 3%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+}
+.ir-arriba {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.cerrar {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 3%;
+    left: 3%;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+figure{
+    display: none;
+    background-color: red;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    width: 20vw;
+}
